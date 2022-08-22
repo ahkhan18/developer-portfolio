@@ -8,7 +8,7 @@ body{
     margin-right: 15px;
 }
 
-section{
+.flexible-container{
     display:flex;
 
 }
@@ -28,7 +28,9 @@ section{
 h1{
     font-size: 50px;
 }
-
+h2{
+    font-size: 40px;
+}
 .half-width img{
     width: 70%;
     padding-left: 100px;
@@ -52,4 +54,45 @@ h1{
 
 .dream-padding{
     padding-right: 150px;
+}
+
+.experience-area{
+    margin-bottom: 100px;
+}
+.experience-color{
+    color: #FFB739;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-area h1{
+    padding-left: 90px;
+}
+
+.experience-item{
+    box-shadow: 10px 10px 50px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-bottom: 30px;  
+  
+}
+
+#full-stack-developer{
+    border-left: 7px solid #FF6347;
+   
+}
+
+#baby-developer{
+    border-left: 7px solid #0000FF;
+}
+
+footer p{
+    text-align: center;
 }
